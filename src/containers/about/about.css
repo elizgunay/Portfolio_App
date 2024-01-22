@@ -1,0 +1,115 @@
+.portfolio__about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.portfolio__about-frame {
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    background: linear-gradient(144.11deg, #C961DE 13.74%, #2954A3 90.91%);
+    border-radius: 80px;
+    padding: 2rem;
+
+}
+
+.portfolio__about-frame_illustration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio__about-frame_illustration img {
+    height: 100%;
+    width: 100%;
+
+    margin: 2rem;
+}
+
+.portfolio__about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    line-height: 25px;
+
+    padding: 2rem;
+}
+
+.portfolio__about-content h1 {
+    color: white;
+    font-size: 23px;
+    font-family: Poppins;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+.portfolio__about-content p {
+    color: white;
+    font-size: 19px;
+    font-family: Poppins;
+    font-weight: 200;
+    word-wrap: break-word
+}
+
+.read-more {
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 1050px) {
+
+    .portfolio__about-frame {
+        flex-direction: column;
+        height: 100%;
+    }
+
+     .portfolio__about-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0rem;
+    } 
+
+    .portfolio__about-content p {
+        margin-top: 1rem;
+    }
+
+    .portfolio__about-frame_illustration {
+        height: 100%;
+    }
+
+    .portfolio__about-frame_illustration img {
+        width: 50%;
+        height: 80%;
+    }
+}
+
+@media screen and (max-width:650px){
+    .portfolio__about-content p {
+       font-size: 17px;
+    }
+
+    .portfolio__about-content{
+        padding: 1rem;
+    }
+
+}
+
+@media screen and (max-width:350px){
+    .portfolio__about-content h1{
+        font-size: 15px;
+    }
+
+    .portfolio__about-content p{
+        font-size: 12px;
+    }
+    
+}

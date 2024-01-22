@@ -1,0 +1,206 @@
+.portfolio__skill {
+    display: flex;
+    justify-content: space-around;
+
+    padding: 4rem 1rem;
+
+}
+
+/*  Container1  */
+
+.portfolio__skill-container1 {
+
+    background-color: rgba(47, 47, 138, 0.6);
+    box-shadow: rgba(135, 131, 131, 0.4) 0px 30px 90px;
+    display: flex;
+    flex-direction: column;
+
+    padding: 3rem 3rem 5rem;
+
+    border-radius: 30px;
+}
+
+.portfolio__skill-container1_heading {
+    padding: 1rem;
+}
+
+.portfolio__skill-container1_heading h1 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.portfolio__skill-container1_content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 15px;
+
+    /* justify-content: center; */
+    margin: 0 3rem;
+}
+
+.portfolio__skill-container1_content p {
+    color: white;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 1rem;
+
+}
+
+/*  Container2  */
+
+.portfolio__skill-container2 {
+
+    background-color: rgba(47, 47, 138, 0.6);
+    box-shadow: rgba(135, 131, 131, 0.4) 0px 30px 90px;
+    display: flex;
+    flex-direction: column;
+
+    padding: 3rem 3rem 5rem;
+
+    border-radius: 30px;
+}
+
+.portfolio__skill-container2_heading {
+    padding: 1rem;
+}
+
+.portfolio__skill-container2_heading h1 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.portfolio__skill-container2_content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 15px;
+
+    margin: 0 3rem;
+}
+
+.portfolio__skill-container2_content p {
+    color: white;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 1rem;
+
+}
+
+/*  Container3  */
+
+.portfolio__skill-container3 {
+
+    background-color: rgba(47, 47, 138, 0.6);
+    box-shadow: rgba(135, 131, 131, 0.4) 0px 30px 90px;
+    display: flex;
+    flex-direction: column;
+
+    padding: 3rem 3rem 5rem;
+
+    border-radius: 30px;
+}
+
+
+.portfolio__skill-container3_heading {
+    padding: 1rem;
+}
+
+.portfolio__skill-container3_heading h1 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.portfolio__skill-container3_content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 15px;
+
+    margin: 0 3rem;
+}
+
+.portfolio__skill-container3_content p {
+    color: white;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 1rem;
+
+}
+
+
+@media screen and (max-width:1050px) {
+    .portfolio__skill {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portfolio__skill-container1 {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .portfolio__skill-container2 {
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    .portfolio__skill-container3 {
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+}
+
+@media screen and (max-width:640px) {
+
+    .portfolio__skill-container1 {
+        padding: 2rem 1rem 5rem;
+    }
+
+    .portfolio__skill-container2 {
+        padding: 2rem 1rem 5rem;
+
+    }
+
+    .portfolio__skill-container3 {
+        padding: 2rem 1rem 5rem;
+
+    }
+
+    .portfolio__skill h1 {
+        font-size: 25px;
+
+    }
+
+    .portfolio__skill p {
+        font-size: 15px;
+
+    }
+
+}
+
+@media screen and (max-width:390px) {
+
+
+    .portfolio__skill-container1_heading,
+    .portfolio__skill-container2_heading,
+    .portfolio__skill-container3_heading {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .portfolio__skill-container1_content,
+    .portfolio__skill-container2_content,
+    .portfolio__skill-container3_content {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}

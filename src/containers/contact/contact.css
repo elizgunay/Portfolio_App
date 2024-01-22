@@ -1,0 +1,204 @@
+::placeholder {
+    color: white;
+}
+.portfolio__contact {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+
+    width: 60%;
+    padding: 2rem;
+    margin: 4rem auto;
+
+    background: rgba(47, 47, 138, 0.6);
+    border-radius: 30px;
+}
+
+.portfolio__contact-groupA {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    padding: 4rem;
+}
+
+.portfolio__contact-groupA_heading h1 {
+    color: white;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 700;
+}
+
+.portfolio__contact-groupA_content p {
+    color: white;
+    font-size: 17px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 25px;
+
+    margin-top: 2rem;
+}
+
+.portfolio__content-groupA_contact {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 4rem;
+}
+
+.portfolio__content-groupA_contact-phone {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.portfolio__content-groupA_contact-email {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    gap: 10px;
+
+    margin-top: 1rem;
+}
+
+
+.portfolio__content-groupA_contact span {
+    color: white;
+    font-size: 30px;
+    font-family: Inter;
+    font-weight: 400;
+}
+
+/* Group B */
+.portfolio__contact-groupB {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    padding: 2rem;
+
+}
+
+
+
+.portfolio__contact-groupB_heading h1 {
+    color: white;
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+.portfolio__contact-groupB_input {
+    display: flex;
+    flex-direction: column;
+
+    width: 230px;
+    height: 100%;
+
+    gap: 25px;
+
+    margin-top: 2rem;
+}
+
+.portfolio__contact-groupB_input input,
+textarea {
+    border-radius: 15px;
+    border: 0;
+    padding: 0.5rem;
+
+    width: 100%;
+
+    background: #646599;
+
+}
+
+.portfolio__contact-groupB_input textarea {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio__contact-groupB_btn button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    width: 130%;
+    border-radius: 25px;
+    background: linear-gradient(rgba(201, 97, 222, 1), rgba(41, 84, 163, 1));
+
+    border: 0;
+    color: white;
+    font-size: 15px;
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+@media screen and (max-width:1050px) {
+    .portfolio__contact {
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .portfolio__contact-groupB_input{
+        width: 100%;
+    }
+
+    
+    .portfolio__contact-groupB_input textarea{
+        height: 100px;
+    }
+
+}
+
+@media screen and (max-width:650px) {
+    ::placeholder{
+        font-size: 12px;
+
+    }
+    .portfolio__contact-groupA {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .portfolio__content-groupA_contact {
+        width: 100%;
+    }
+
+    .portfolio__content-groupA_contact span {
+        font-size: 20px;
+    }
+
+
+}
+
+@media screen and (max-width:450px) {
+
+    ::placeholder{
+        font-size: 10px;
+
+    }
+    .portfolio__content-groupA_contact span {
+        font-size: 15px;
+    }
+
+    .portfolio__content-groupA_contact-phone {
+        flex-direction: column;
+    }
+
+    .portfolio__content-groupA_contact img {
+        width: 30px;
+    }
+
+    .portfolio__content-groupA_contact-email {
+        flex-direction: column;
+    }
+
+
+}

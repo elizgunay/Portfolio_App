@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+.background-color{
+  background: #0F103F;
+}
+
+.gradient2{
+  background: var(--gradient-btn2);
+
+}
+
+.section__padding {
+  padding: 4rem 8rem;
+}
+
+.section__margin{
+  margin: 4rem 6rem;
+
+}
+
+.gradient1{
+  /* background: var(--gradient-btn1); */
+  background: rgba(255, 255, 255, 0.30);
+}
