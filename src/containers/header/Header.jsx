@@ -17,8 +17,8 @@ const Header = () => {
             <div className="portfolio__header-content" id='home'>
 
                     <h1>Creative UI Designer </h1>
-                    <p>Eliz Zaid </p>
-                    <p>Based in Plovdiv</p>
+                    <p>Sourasith Phomhome</p>
+                    <p>Based in Montreal</p>
 
                 <div className="portfolio__header-btn">
                     <button className='gradient1' type="button">Hire me</button>
